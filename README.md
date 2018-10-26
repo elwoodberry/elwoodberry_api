@@ -43,8 +43,17 @@ $ ng build --prod
 $ ng generate component --spec=false pgLogin    
 ``` 
 
-
-
+### jQuery   
+**Install/Save** jQuery to the project           
+```javascript  
+$ npm install jquery --save       
+``` 
+**Update/Import** the component.ts file           
+```javascript     
+...    
+import * as $ from 'jquery'; // Import jQuery       
+...    
+``` 
 
 ## Materialize   
 You can download the materlize library [here](https://materializecss.com/).    
@@ -86,13 +95,6 @@ export class AppComponent {
   title = 'Tour of Heroes';
 }
 ```
-
-
-## Parsley    
-**Import CSS** in app root style.css (or style.scss).      
-```javascript  
-@import "./assets/css/materialize.min.css";    
-``` 
 
 
 ## References    
