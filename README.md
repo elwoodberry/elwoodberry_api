@@ -14,7 +14,6 @@ Drive the spa from a WP API.
 1. Materialize or Google Material  
 
 
-
 ## Wordpress   
 ### Plugins   
 1. [JSON Basic Authentication](https://github.com/WP-API/Basic-Auth)   
