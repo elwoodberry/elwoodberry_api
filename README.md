@@ -20,22 +20,31 @@ Drive the spa from a WP API.
 1. [JSON Basic Authentication](https://github.com/WP-API/Basic-Auth)   
 ## Angular   
 
-**Create Project**  
+**Create Project** with SASS compiler and with routing.     
 ```javascript     
-$ ng new PROJECTNAME      
+$ ng new project --style=scss --routing      
 ```   
 **Serve Project**  
 ```javascript   
----   
 $ ng serve -o   
----  
+```   
+**Add Routing to the Project**  
+```javascript   
+$ ng g module app-routing   
 ```   
 **Build Project**  
 ```javascript   
----   
 $ ng build --prod   
----  
 ```  
+
+### Component   
+**Generate a new component**           
+```javascript  
+$ ng generate component --spec=false pgLogin    
+``` 
+
+
+
 
 ## Materialize   
 You can download the materlize library [here](https://materializecss.com/).    
@@ -78,6 +87,14 @@ export class AppComponent {
 }
 ```
 
+
+## Parsley    
+**Import CSS** in app root style.css (or style.scss).      
+```javascript  
+@import "./assets/css/materialize.min.css";    
+``` 
+
+
 ## References    
 ### Wordpress  
 1. [REST API Handbook](https://developer.wordpress.org/rest-api/)   
@@ -86,7 +103,11 @@ export class AppComponent {
 1. [ng build](https://github.com/angular/angular-cli/wiki/build)
 1. [Running an angular 2 application..](https://stackoverflow.com/questions/39771458/running-an-angular-2-application-built-locally-on-chrome-using-angular-cli-witho)   
 1. [Creating a web app in 5 minutes with Angular 5 and Materialize CSS](https://fullstackengine.net/create-wedding-page-angular-materialize/)     
-1. [Materialize Carousel Mobile with Angular 6](https://youtu.be/AT5L3K-TGps)
+1. [Materialize Carousel Mobile with Angular 6](https://youtu.be/AT5L3K-TGps)  
+1. [Starting an Angular CLI Project with Sass](https://scotch.io/tutorials/using-sass-with-the-angular-cli)  
+1. [How to add a routing module...](https://stackoverflow.com/questions/44990030/how-to-add-a-routing-module-to-an-existing-module-in-angular-cli-version-1-1-1)
+1. [Configure Routing In An Angular CLI Project](https://shermandigital.com/blog/configure-routing-in-an-angular-cli-project/)   
+1. [Get Component without spec.ts file in Angularjs 2](https://stackoverflow.com/questions/40990280/get-component-without-spec-ts-file-in-angularjs-2)
 
 ### Ionic   
 1. [PWA Basics](https://ionicframework.com/pwa)
